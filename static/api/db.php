@@ -11,6 +11,7 @@ class DBConnection {
    */
   public function DBConnection() {
     $servername = "localhost";
+    /* read only user for database */
     $username = "josh_grift_read";
     $password = "password";
     $dbname = "josh_grift";
