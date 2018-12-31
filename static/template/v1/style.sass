@@ -1,0 +1,251 @@
+//configs
+$max-width: 1024px
+
+//extentions
+=centered
+  max-width: $max-width
+  margin: auto
+
+=shadow
+  -webkit-box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.5)
+  -moz-box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.5)
+  box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.5)
+
+=large-button
+  width: 384px
+  height: 76px
+  padding: 10px
+  border-radius: 10px
+  background-color: var(--light)
+  margin: 15px
+  text-align: left
+
+=transition
+  transition: all 0.5s ease
+
+=hover
+  transition: all 0.5s ease
+  -webkit-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.5)
+  -moz-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.5)
+  box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.5)
+
+//style
+body
+  border-top: 8px solid var(--primary)
+  font-family: "Futura"
+  font-weight: normal
+  color: var(--dark)
+  background-color: var(--grey-light-3)
+  min-width: 320px
+
+a
+  text-decoration: inherit
+  color: inherit
+
+a.social
+  +transition
+  display: inline-block
+  margin-left: 36px
+  margin-right: 36px
+  width: 64px
+  height: 64px
+  line-height: 64px
+  font-size: 32px
+  text-align: center
+  color: var(--grey-light-3)
+  border-radius: 50%
+
+h1, h2, h3, h4, h5, h6
+  font-family: Futura
+
+h2
+  font-size: 36px
+
+h3
+  font-size: 30px
+
+h4
+  font-size: 24px
+  margin: 0px
+
+h5
+  font-size: 20px
+  margin: 0px
+
+h6
+  font-size: 16px
+  margin: 0px
+
+header
+  +centered
+  margin-top: 40px
+  margin-bottom: 40px
+
+  h1
+    text-align: center
+
+    img
+      +transition
+      max-width: 400px
+      width: 80%
+
+section.main
+  +centered
+  padding: 20px
+
+section.colored
+  background-color: var(--primary)
+  color: var(--grey-light-3)
+
+  padding: 20px
+
+  div
+    +centered
+
+    line-height: 128px
+
+    // in reference to the clients images
+    img
+      vertical-align: center
+
+    img.long
+      height: 32px
+
+    img.square
+      height: 96px
+
+
+section.split
+  +centered
+  +transition
+
+  color: var(--grey-light-3)
+  height: 128px
+  line-height: 128px
+  text-align: center
+
+  h2
+    margin: 0px
+
+  i
+    display: inline-block
+    padding-left: 20px
+
+  div.left
+    +transition
+    float: left
+    width: 50%
+    height: 128px
+
+  div.right
+    +transition
+    float: right
+    width: 50%
+    height: 128px
+
+  div.clear
+    clear: both
+
+section.centered
+  +centered
+  text-align: center
+
+section.hero
+  +transition
+  width: 640px
+  margin: auto
+  font-size: 30px
+  line-height: 64px
+
+  svg
+    max-height: 64px
+    width: 64px
+    position: relative
+    top: -6px
+
+  svg, p
+    +transition
+    vertical-align: middle
+    margin: 20px
+
+  p
+    height: 64px
+
+section.center-column
+  width: 600px
+  margin: auto
+
+section.spaced
+  margin-top: 100px
+  margin-bottom: 100px
+
+div.project
+  +transition
+  +large-button
+  +shadow
+  position: relative
+  padding-left: 18px
+  display: inline-block
+
+  h5
+    line-height: 28px
+
+  p
+    line-height: 25px
+    margin: 0px
+
+  .tags
+    line-height: 25px
+
+    i
+      font-size: 18px
+
+  .icon
+    +shadow
+    position: absolute
+    right: 10px
+    bottom: 10px
+    padding: 6px
+    height: 16px
+    width: 16px
+    line-height: 18px
+    font-size: 12px
+    background-color: var(--dark)
+    border-radius: 50%
+    color: var(--light)
+    text-align: center
+    i
+      padding-left: 1.5px // idk either
+
+div.project:hover
+  +hover
+
+div.product
+  +large-button
+  .icon
+    height: 64px
+    line-height: 76px
+    font-size: 64px
+    float: left
+
+footer
+  +centered
+  height: 160px
+  padding: 20px
+
+  p
+    font-weight: bold
+    margin: 0px
+    font-size: 30px
+    font-family: Futura
+    margin-bottom: 10px
+
+  a img
+    height: 48px
+
+  .logo
+    margin-top: 60px
+    float: right
+
+    img
+      height: 100px

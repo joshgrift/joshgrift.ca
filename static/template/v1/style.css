@@ -1,0 +1,264 @@
+body {
+  border-top: 8px solid var(--primary);
+  font-family: "Futura";
+  font-weight: normal;
+  color: var(--dark);
+  background-color: var(--grey-light-3);
+  min-width: 320px;
+}
+
+a {
+  text-decoration: inherit;
+  color: inherit;
+}
+
+a.social {
+  transition: all 0.5s ease;
+  display: inline-block;
+  margin-left: 36px;
+  margin-right: 36px;
+  width: 64px;
+  height: 64px;
+  line-height: 64px;
+  font-size: 32px;
+  text-align: center;
+  color: var(--grey-light-3);
+  border-radius: 50%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Futura;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+h4 {
+  font-size: 24px;
+  margin: 0px;
+}
+
+h5 {
+  font-size: 20px;
+  margin: 0px;
+}
+
+h6 {
+  font-size: 16px;
+  margin: 0px;
+}
+
+header {
+  max-width: 1024px;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+header h1 {
+  text-align: center;
+}
+header h1 img {
+  transition: all 0.5s ease;
+  max-width: 400px;
+  width: 80%;
+}
+
+section.main {
+  max-width: 1024px;
+  margin: auto;
+  padding: 20px;
+}
+
+section.colored {
+  background-color: var(--primary);
+  color: var(--grey-light-3);
+  padding: 20px;
+}
+section.colored div {
+  max-width: 1024px;
+  margin: auto;
+  line-height: 128px;
+}
+section.colored div img {
+  vertical-align: center;
+}
+section.colored div img.long {
+  height: 32px;
+}
+section.colored div img.square {
+  height: 96px;
+}
+
+section.split {
+  max-width: 1024px;
+  margin: auto;
+  transition: all 0.5s ease;
+  color: var(--grey-light-3);
+  height: 128px;
+  line-height: 128px;
+  text-align: center;
+}
+section.split h2 {
+  margin: 0px;
+}
+section.split i {
+  display: inline-block;
+  padding-left: 20px;
+}
+section.split div.left {
+  transition: all 0.5s ease;
+  float: left;
+  width: 50%;
+  height: 128px;
+}
+section.split div.right {
+  transition: all 0.5s ease;
+  float: right;
+  width: 50%;
+  height: 128px;
+}
+section.split div.clear {
+  clear: both;
+}
+
+section.centered {
+  max-width: 1024px;
+  margin: auto;
+  text-align: center;
+}
+
+section.hero {
+  transition: all 0.5s ease;
+  width: 640px;
+  margin: auto;
+  font-size: 30px;
+  line-height: 64px;
+}
+section.hero svg {
+  max-height: 64px;
+  width: 64px;
+  position: relative;
+  top: -6px;
+}
+section.hero svg, section.hero p {
+  transition: all 0.5s ease;
+  vertical-align: middle;
+  margin: 20px;
+}
+section.hero p {
+  height: 64px;
+}
+
+section.center-column {
+  width: 600px;
+  margin: auto;
+}
+
+section.spaced {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+div.project {
+  transition: all 0.5s ease;
+  width: 384px;
+  height: 76px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: var(--light);
+  margin: 15px;
+  text-align: left;
+  -webkit-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.5);
+  position: relative;
+  padding-left: 18px;
+  display: inline-block;
+}
+div.project h5 {
+  line-height: 28px;
+}
+div.project p {
+  line-height: 25px;
+  margin: 0px;
+}
+div.project .tags {
+  line-height: 25px;
+}
+div.project .tags i {
+  font-size: 18px;
+}
+div.project .icon {
+  -webkit-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.5);
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  padding: 6px;
+  height: 16px;
+  width: 16px;
+  line-height: 18px;
+  font-size: 12px;
+  background-color: var(--dark);
+  border-radius: 50%;
+  color: var(--light);
+  text-align: center;
+}
+div.project .icon i {
+  padding-left: 1.5px;
+}
+
+div.project:hover {
+  transition: all 0.5s ease;
+  -webkit-box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.5);
+}
+
+div.product {
+  width: 384px;
+  height: 76px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: var(--light);
+  margin: 15px;
+  text-align: left;
+}
+div.product .icon {
+  height: 64px;
+  line-height: 76px;
+  font-size: 64px;
+  float: left;
+}
+
+footer {
+  max-width: 1024px;
+  margin: auto;
+  height: 160px;
+  padding: 20px;
+}
+footer p {
+  font-weight: bold;
+  margin: 0px;
+  font-size: 30px;
+  font-family: Futura;
+  margin-bottom: 10px;
+}
+footer a img {
+  height: 48px;
+}
+footer .logo {
+  margin-top: 60px;
+  float: right;
+}
+footer .logo img {
+  height: 100px;
+}
+
+/*# sourceMappingURL=style.css.map */

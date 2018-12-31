@@ -1,0 +1,11 @@
+:root {
+  --primary-dark-4: var(--navy);
+  --primary-dark-3: var(--jean);
+  --primary-dark-2: var(--royal);
+  --primary-dark-1: var(--ocean);
+  --primary: var(--blue);
+  --primary-light-1: var(--sky);
+  --primary-light-2: var(--baby);
+  --primary-light-3: var(--light-blue);
+  --primary-light-4: var(--pale-blue);
+}
