@@ -18,7 +18,7 @@
           ?>
             <div class="project">
               <div class="icon">
-                <a href="<?=$projects[$i]['source']?>"><i class="fas fa-code-branch"></i></a>
+                <a href="<?=$projects[$i]['source']?>"><i class="<?=$projects[$i]['action']?>"></i></a>
               </div>
               <a href="<?=$projects[$i]['url']?>">
                 <h5><?=$projects[$i]['title']?></h5>
