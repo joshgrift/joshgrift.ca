@@ -57,7 +57,6 @@
         <a class="social" href="https://ca.linkedin.com/in/josh-grift-813616162" style="background-color:#0077B5;"><i class="fab fa-linkedin-in"></i></a>
         <a class="social" href="https://github.com/dotjersh" style="background-color:#24292e;"><i class="fab fa-github"></i></a>
         <a class="social" href="https://stackoverflow.com/users/4314753/jersh" style="background-color:#F48024;"><i class="fab fa-stack-overflow"></i></a>
-        <a class="social" href="https://codepen.io/dotjersh/" style="background-color:#000000;"><i class="fab fa-codepen"></i></a>
         <a class="social" href="https://twitter.com/dotjersh" style="background-color:#00ACED;"><i class="fab fa-twitter"></i></a>
       </p>
     </section>
